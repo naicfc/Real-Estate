@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Services() {
   return (
-    <div>Services</div>
-  )
+    <div className="h-[100vh] w-full flex justify-center items-center">
+      <div className="text-gray-600">Services</div>
+    </div>
+  );
 }
