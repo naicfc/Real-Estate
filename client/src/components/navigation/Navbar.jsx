@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="fixed w-full flex justify-between items-center px-20 py-2 text-gray-600 shadow-sm bg-zinc-100">
+    <div className="fixed w-full flex justify-between items-center px-28 py-2 text-gray-600 shadow-sm bg-zinc-100">
       <div>
         <Link to={"/"}>
           <p className="font-semibold text-gray-700 text-2xl">
