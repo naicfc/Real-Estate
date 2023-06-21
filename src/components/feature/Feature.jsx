@@ -7,7 +7,7 @@ import { IoIosHome } from "react-icons/io";
 
 export default function Feature() {
   return (
-    <div className="px-28 py-16 bg-zinc-100">
+    <div className="px-4 lg:px-28 py-16 bg-zinc-100">
       <div className="text-center mb-10">
         <p className="text-xl tracking-wider text-gray-800 font-semibold">
           Featured Property Types
@@ -16,7 +16,7 @@ export default function Feature() {
           Find All Types of Property
         </p>
       </div>
-      <div className="flex justify-between">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-2 lg:gap-2 justify-between">
         <FeatureCard
           icon={<BiHome size={25} />}
           color={"bg-red-400 p-2 rounded-full"}

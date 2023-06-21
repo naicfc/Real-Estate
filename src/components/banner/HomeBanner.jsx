@@ -13,13 +13,13 @@ export default function HomeBanner() {
       className="justify-center  bg-no-repeat bg-cover bg-bottom  h-[100vh]">
       <div className="p-10 text-white flex flex-col items-center justify-center h-full">
         <div className="text-center mb-10">
-          <p className="text-6xl tracking-wider">Search For Your Next Home</p>
-          <p className="text-lg">
+          <p className="text-4xl md:text-6xl tracking-wider">Search For Your Next Home</p>
+          <p className="text-md md:text-lg">
             Find new & featured properties in your local city
           </p>
         </div>
         <form action="">
-          <div className="grid grid-cols-4 bg-zinc-100 rounded-sm">
+          <div className="grid grid-cols-1 md:grid-cols-4 bg-zinc-100 rounded-sm py-2">
             <BannerForm
               name={"city"}
               placeholder={"Location"}
