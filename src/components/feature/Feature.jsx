@@ -13,7 +13,7 @@ export default function Feature() {
           Featured Property Types
         </p>
         <p className="text-sm text-gray-600 font-medium">
-          Find All Types of Property
+          Find All Types of Properties
         </p>
       </div>
       <div className="flex justify-between">
