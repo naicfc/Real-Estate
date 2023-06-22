@@ -85,6 +85,17 @@ export default function Navbar() {
                   Contact
                 </li>
               </Link>
+              <Link>
+                <div className="flex items-center pt-4 pb-8">
+                  <p className="rounded-full bg-green-600 px-1 py-0 text-sm text-white">
+                    2
+                  </p>
+                  <p className="px-1 mr-2">My List</p>
+                </div>
+              </Link>
+              <Link>
+                <SignInButton className=""/>
+              </Link>
             </ul>
           </div>
         </div>
