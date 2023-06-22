@@ -8,7 +8,7 @@ export default function HomeBanner() {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${background})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(${background})`,
       }}
       className="justify-center  bg-no-repeat bg-cover bg-bottom  h-[100vh]">
       <div className="p-10 text-white flex flex-col items-center justify-center h-full">
