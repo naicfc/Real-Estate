@@ -11,10 +11,10 @@ export default function RecentCard({
 }) {
   return (
     <div className="flex flex-col shadow-gray-500 shadow-sm rounded-sm">
-      <img className="w-[100%] h-[60%]" src={url} alt="Recent properties" />
+      <img className="w-[100%] h-[30vh]" src={url} alt="Recent properties" />
       <div className="p-4">
         <div className="flex justify-between items-center py-1">
-          <p className="py-1 px-2 bg-green-600/70 rounded-sm text-white text-sm cursor-default">
+          <p className="py-1 px-2 bg-green-600/40 rounded-sm text-green-700 text-sm cursor-default">
             {status}
           </p>
           <AiOutlineHeart />
