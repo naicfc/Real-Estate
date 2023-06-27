@@ -13,8 +13,8 @@ export default function HomeBanner() {
       className="justify-center  bg-no-repeat bg-cover bg-bottom  h-[100vh]">
       <div className="p-10 text-white flex flex-col items-center justify-center h-full">
         <div className="text-center mb-10">
-          <p className="text-4xl md:text-6xl tracking-wider">Search For Your Next Home</p>
-          <p className="text-md md:text-lg">
+          <p className="text-xl md:text-6xl tracking-wider sm:font-semibold md:font-normal">Search For Your Next Home</p>
+          <p className="text-sm md:text-lg">
             Find new & featured properties in your local city
           </p>
         </div>
