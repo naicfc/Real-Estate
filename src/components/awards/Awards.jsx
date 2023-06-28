@@ -13,7 +13,7 @@ export default function Awards() {
         <p className=" md:text-2xl capitalize">
           Over 1,240,000+ happy users work with us
         </p>
-        <p className="md:text-2xl capitalize">they love our servics</p>
+        <p className="md:text-2xl capitalize">they love our services</p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 py-2">
         <AwardCard

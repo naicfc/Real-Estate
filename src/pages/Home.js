@@ -5,6 +5,7 @@ import Recent from "../components/recent/Recent";
 import Awards from "../components/awards/Awards";
 import Explore from "../components/explore/Explore";
 import Agents from "../components/agents/Agents";
+import Pricing from "../components/packages/Pricing";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Awards />
       <Explore />
       <Agents />
+      <Pricing />
     </>
   );
 }

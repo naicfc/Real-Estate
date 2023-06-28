@@ -2,23 +2,21 @@ import React from "react";
 import { useEffect, useState } from "react";
 import AgentCard from "./AgentCard";
 
-
 export default function Agents() {
   const [userslist, setUsers] = useState("");
-  
-    console.log(userslist.users);
 
   useEffect(() => {
     const fetchUsers = async () => {
       const response = await fetch(
         "https://dummyjson.com/users?skip=5&limit=6"
       );
-       const json = await response.json();
+      const json = await response.json();
       setUsers(json);
     };
 
     fetchUsers();
-  },[]);
+  }, []);
+
   return (
     <div className=" px-4 lg:px-28 py-16">
       <div className="text-center mb-10">
@@ -32,7 +30,10 @@ export default function Agents() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-         {userslist.users && userslist.users.map((user) => <AgentCard key={user.id} user={user} />)}  
+        {userslist.users &&
+          userslist.users.map((user) => (
+            <AgentCard key={user.id} user={user} />
+          ))}
       </div>
     </div>
   );
