@@ -10,7 +10,7 @@ export default function RecentCard({
   type,
 }) {
   return (
-    <div className="flex flex-col shadow-gray-500 shadow-sm rounded-sm">
+    <div className="flex flex-col shadow-gray-300 shadow-sm rounded-sm">
       <img className="w-[100%] h-[30vh]" src={url} alt="Recent properties" />
       <div className="p-4">
         <div className="flex justify-between items-center py-1">

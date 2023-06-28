@@ -11,8 +11,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed w-full flex justify-between items-center px-4 lg:px-28 py-4 md:py-2 text-gray-600 shadow-sm bg-zinc-100">
-      <div>
+    <div className="fixed w-full flex justify-between items-center px-4 lg:px-28 py-4 md:py-2 text-gray-600 shadow-md bg-white">
+      <div className="lg:w-[190px]">
         <Link to={"/"}>
           <p className="font-semibold text-gray-700 text-2xl">
             Rent<span className="font-medium text-green-600">UP</span>
