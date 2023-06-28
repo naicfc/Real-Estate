@@ -4,6 +4,7 @@ import Feature from "../components/feature/Feature";
 import Recent from "../components/recent/Recent";
 import Awards from "../components/awards/Awards";
 import Explore from "../components/explore/Explore";
+import Agents from "../components/agents/Agents";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Recent />
       <Awards />
       <Explore />
+      <Agents />
     </>
   );
 }
