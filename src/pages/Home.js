@@ -6,6 +6,7 @@ import Awards from "../components/awards/Awards";
 import Explore from "../components/explore/Explore";
 import Agents from "../components/agents/Agents";
 import Pricing from "../components/packages/Pricing";
+import Questions from "../components/questions/Questions";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Explore />
       <Agents />
       <Pricing />
+      <Questions />
     </>
   );
 }
