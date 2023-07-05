@@ -7,7 +7,7 @@ export default function Questions() {
         <h1 className="capitalize text-2xl text-center md:text-3xl font-semibold tracking-wider">
           do you have questions?
         </h1>
-        <p className="">We'll help you find your next property and home.</p>
+        <p className="text-center lg:text-left">We'll help you find your next property and home.</p>
       </div>
       <div className="bg-white text-green-700 px-5 py-3 rounded-full text-sm font-semibold capitalize">
         Contact us today
