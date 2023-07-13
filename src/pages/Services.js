@@ -1,9 +1,18 @@
 import React from "react";
+import Banner from "../components/banner/Banner";
+import Feature from "../components/feature/Feature";
+import Questions from "../components/questions/Questions";
+import LinkFooter from "../components/footer/LinkFooter";
+import Footer from "../components/footer/Footer";
 
 export default function Services() {
   return (
-    <div className="h-[100vh] w-full flex justify-center items-center">
-      <div className="text-gray-600">Services</div>
-    </div>
+    <>
+      <Banner title="services" description=" Services - All Services"/>
+      <Feature />
+      <Questions />
+      <LinkFooter />
+      <Footer />
+    </>
   );
 }
