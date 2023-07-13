@@ -3,7 +3,7 @@ import PricingCard from "./PricingCard";
 import CheckPrice from "././CheckPrice";
 import CrossPrice from "././CrossPrice";
 
-export default function Pricing() {
+export default function Pricings() {
   return (
     <div className=" px-4 lg:px-28 py-16">
       <div className="text-center mb-10">

@@ -26,20 +26,20 @@ export default function Navbar() {
           <LinkElement name={"Services"} link={"/services"} />
           <LinkElement name={"Blog"} link={"/blogs"} />
           <LinkElement name={"Pricing"} link={"/pricing"} />
-          <LinkElement name={"Contact"} link={"/services"} />
+          <LinkElement name={"Contact"} link={"/contact"} />
         </ul>
       </nav>
       <div
         className={
           nav
-            ? "md:hidden fixed right-0 top-0 w-full h-screen bg-black/70 ease-in duration-1000"
+            ? "md:hidden fixed right-0 top-0 w-full h-screen bg-black/70 ease-in duration-500"
             : "md:hidden bg-transparent ease-out duration-1000"
         }>
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[50%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-out duration-1000"
-              : "fixed right-[-100%] w-[75%] sm:w-[50%] md:w-[45%] w top-0 p-10 duration-1000 h-screen"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[50%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-out duration-500"
+              : "fixed right-[-100%] w-[75%] sm:w-[50%] md:w-[45%] w top-0 p-10 duration-500 h-screen"
           }>
           <div>
             <div className="flex w-full items-center justify-between">
