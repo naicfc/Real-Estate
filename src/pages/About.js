@@ -4,7 +4,7 @@ import Banner from '../components/banner/Banner';
 export default function About() {
   return (
     <>
-      <Banner />
+      <Banner title="about" description="About Us - Who We Are?"/>
     </>
   );
 }
