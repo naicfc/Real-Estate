@@ -1,9 +1,18 @@
 import React from 'react'
+import Banner from '../components/banner/Banner';
+import Agents from '../components/agents/Agents';
+import Questions from '../components/questions/Questions';
+import LinkFooter from '../components/footer/LinkFooter';
+import Footer from '../components/footer/Footer';
 
 export default function Contact() {
   return (
-    <div className="h-[100vh] w-full flex justify-center items-center">
-      <div className="text-gray-600">Contact</div>
-    </div>
+    <>
+     <Banner title="contact us" description="Get Help & Friendly Support"/>
+     <Agents />
+     <Questions />
+     <LinkFooter />
+     <Footer />
+    </>
   );
 }
