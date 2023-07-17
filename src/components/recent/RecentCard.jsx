@@ -27,8 +27,11 @@ export default function RecentCard({
           </div>
         </div>
         <div className="flex justify-between items-center py-1">
-          <div className="py-2 px-4 bg-green-600 rounded-full text-white font-semibold">
-            <p>{price}</p>
+          <div className="flex items-center">
+            <p className="py-2 px-4 bg-green-600 rounded-full text-white font-semibold">
+              {price}
+            </p>
+            <p className="text-xs font-semibold text-gray-500 px-2"> per year</p>
           </div>
           <p>{type}</p>
         </div>
