@@ -24,7 +24,7 @@ export default function Agents() {
           our feature agents
         </p>
         <p className="text-sm text-gray-600 font-medium w-full md:w-[70%] mx-auto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia at
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
           asperiores praesentium mollitia ipsam similique consectetur veniam
           doloribus voluptas commodi.
         </p>
