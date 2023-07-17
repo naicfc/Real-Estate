@@ -14,7 +14,7 @@ export default function Recent() {
         <p className="text-sm text-gray-600 font-medium w-full md:w-[70%] mx-auto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia at
           asperiores praesentium mollitia ipsam similique consectetur veniam
-          doloribus voluptas commodi.
+          doloribus voluptas.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
