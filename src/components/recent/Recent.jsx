@@ -32,7 +32,7 @@ export default function Recent() {
           name={"Nai properties"}
           location={"La Palmwine"}
           price={"$20,000"}
-          type={"apartment"}
+          type={"office"}
         />
         <RecentCard
           url={Image3}
@@ -40,7 +40,7 @@ export default function Recent() {
           name={"Nai properties"}
           location={"La Palmwine"}
           price={"$39,000"}
-          type={"apartment"}
+          type={"villa"}
         />
       </div>
     </div>
