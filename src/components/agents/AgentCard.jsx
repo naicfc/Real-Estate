@@ -6,7 +6,7 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
-import {AiOutlineMail} from 'react-icons/ai'
+import { AiOutlineMail } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
 
 export default function AgentCard({ user }) {
