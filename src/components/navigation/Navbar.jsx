@@ -38,7 +38,7 @@ export default function Navbar() {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[50%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-out duration-500"
+              ? "fixed right-0 top-0 w-[100%] sm:w-[100%] md:w-[100%] h-screen bg-[#ecf0f3] p-10 ease-out duration-500"
               : "fixed right-[-100%] w-[75%] sm:w-[50%] md:w-[45%] w top-0 p-10 duration-500 h-screen"
           }>
           <div>
